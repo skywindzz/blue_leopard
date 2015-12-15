@@ -1,0 +1,216 @@
+/*
+ Theme Name:   openstrap Child
+ Template:     openstrap
+*/
+
+@import url("../openstrap/style.css");
+/* ----------------------  GENERAL STYLES -------------------------- */
+body, #bodychild {
+    font-family: "cronos-pro";  
+    font-size: 19px;
+}
+
+#bodychild {
+    background: rgba(0,0,0,.9);   
+}
+
+h1, h2, h3, h4, h5, h6, .widget-title {
+    color: rgba(185, 183, 183, 1);   
+    font-family:"double-pica-sc", "calluna", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+h2, h3, h5, h6:after {
+    border-bottom: 1px solid rgb(128, 128, 128);
+    margin: 0.5em 25% 20px 0px;
+    min-width: 200px;
+    max-width: 40%;
+}
+
+h1 {
+    color: rgb(172,140,71); 
+}
+
+hr.style-eight:after {
+    content:none; /* remove ladybug thing in hr */
+}
+
+p {
+    color: #c6c4c4; 
+    max-width: 800px;
+}
+
+body.openstrap-custom-background {
+    background-size: cover !important; /* make background image full screen */
+}
+
+.entry-content .tiled-gallery {
+    margin: 1em 0; /* add some space between content and gallery */
+}
+
+.btn , .btn-primary {
+    background: rgb(172,140,71); 
+    text-transform: uppercase;
+    border-color: rgb(172,140,71);
+    font-style: normal;
+}
+
+    .btn:hover , .btn-primary:hover {
+        background: rgb(88, 75, 36); 
+        border-color: rgb(88, 75, 36);
+        color: rgb(147, 146, 146);
+    }
+
+a {
+    color: rgb(172,140,71);
+}
+    a:hover {
+        color: rgb(88, 75, 36);
+    }
+/* ----------------------  FOOTER STYLES -------------------------- */
+#footer, #extended-footer {
+    background: rgba(0,0,0,.5);
+}
+
+h4.footer-widget-title {
+    font-weight: normal;
+}
+
+h4.footer-widget-title:after {
+    border-bottom: none;   
+}
+
+.text-muted, .container .credit {
+    color: rgba(131, 130, 130, 1);   
+}
+
+#footer .text-muted {
+    margin-top: 0;   
+}
+
+#extended-footer .social-icon-box-inner {
+    float: right;   
+}
+
+#footer h2, h4, h4 {
+    font-family: "cronos-pro";   
+}
+
+/* ----------------------  APPLY A CUSTOM TYPOGRAPHIC SCALE -------------------------- */
+h1 {  
+     font-size: 3.3684em; /* 64px */ line-height: 1.2656em; /* 81px */ margin-top: 0.4219em; margin-bottom: 0.0000em;
+}
+h2 {
+    font-size: 2.2632em; /* 43px */ line-height: 1.2558em; /* 54px */ margin-top: 0.6279em; margin-bottom: 0.0000em;
+}
+
+h2 {
+     font-size: 1.5263em; /* 29px */ line-height: 1.8621em; /* 54px */ margin-top: 0.9310em; margin-bottom: 0.0000em; 
+}
+
+p {
+     font-size: 1.0000em; /* 19px */ line-height: 1.4211em; /* 27px */ margin-top: 1.4211em; margin-bottom: 0.0000em;
+}
+
+.widget-title {
+    font-size: 1.5em;   
+}
+/* ----------------------  HEADER / NAVIGATION -------------------------- */
+#header-top {
+    background: inherit;  
+    border-bottom: none;
+    font-size: 19px;
+}
+
+.header-contact {
+    color: rgb(147,147,147);   
+}
+
+.logo-row img {
+    padding-bottom: 10px;   
+}
+
+.site-header .header-body {
+    background: rgba(17, 17, 17, 0.3) !important;   
+}
+
+.site-title {
+    font-family: "calluna";  
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.navbar-inverse {
+    background-color: rgba(0,0,0,0.6);  
+    font-family: "cronos-pro","calluna", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+   background: none;  
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus  {
+    color: rgb(177, 177, 177);
+    background-color: black;
+}
+
+.container #menu-main-navigation {
+    margin-left: -10px;   
+}
+
+
+/* ----------------------------  FRONT/HOME PAGE ----------------------------- */
+.front-page-blurb .lead {
+    font-style: normal;   
+    padding-bottom: 100px; 
+
+}
+.front-page-blurb h1 {
+    text-shadow: none;   
+    font-size: 5.0526em; 
+    line-height: 1.1250em; 
+    margin-top: -0.5626em; 
+    margin-bottom: 0.0000em;
+}
+
+.front-page-blurb h2 {
+    text-align: center;
+    border-bottom: none;
+    margin: 0 auto 0.4219em auto;
+    color: rgb(237, 237, 237);   
+    min-width: 60%;
+    font-size: 1.5em; 
+    line-height: 1.2558em; 
+}
+
+.front-page-blurb p {
+    font-size: 1.5em;  
+    font-weight: 100; 
+    padding-bottom: .5em;
+    max-width: 100%;
+}
+
+.front-page-widget-title {
+    color: white;   
+}
+
+.frontpage-widget-inner-text p{
+    font-style: italic;   
+}
+
+.widget h2 {
+    max-width: 95%; /* keep home page widget titles on one line */  
+}
+
+/* ----------------------------  MENU PAGE ----------------------------- */
+
+.menu p{
+    font-style: italic;   
+}
